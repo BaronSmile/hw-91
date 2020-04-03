@@ -1,0 +1,43 @@
+body {
+  background: #ecf0f5;
+}
+
+.user-form {
+  max-width: 380px;
+  padding: 15px;
+  margin: 0 auto 30px;
+}
+
+.box {
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background: #fff;
+}
+
+.navbar-nav {
+  flex-direction: row;
+}
+
+.nav-item {
+  margin: 0 5px;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.messages {
+  height: 400px;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
